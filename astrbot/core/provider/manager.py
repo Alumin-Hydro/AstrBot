@@ -469,6 +469,10 @@ class ProviderManager:
                 from .sources.gemini_embedding_source import (
                     GeminiEmbeddingProvider as GeminiEmbeddingProvider,
                 )
+            case "dashscope_embedding":
+                from .sources.dashscope_embedding_source import (
+                    DashScopeEmbeddingProvider as DashScopeEmbeddingProvider,
+                )
             case "vllm_rerank":
                 from .sources.vllm_rerank_source import (
                     VLLMRerankProvider as VLLMRerankProvider,

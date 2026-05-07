@@ -1800,6 +1800,18 @@ CONFIG_METADATA_2 = {
                         "timeout": 20,
                         "proxy": "",
                     },
+                    "阿里云百炼 Embedding": {
+                        "hint": "API Key 从 https://bailian.console.aliyun.com/?tab=model#/api-key 获取。支持的模型：text-embedding-v1、text-embedding-v2、text-embedding-v3 等。",
+                        "id": "dashscope_embedding",
+                        "type": "dashscope_embedding",
+                        "provider": "dashscope",
+                        "provider_type": "embedding",
+                        "enable": True,
+                        "embedding_api_key": "",
+                        "embedding_model": "text-embedding-v3",
+                        "embedding_dimensions": 1024,
+                        "timeout": 20,
+                    },
                     "vLLM Rerank": {
                         "id": "vllm_rerank",
                         "type": "vllm_rerank",
